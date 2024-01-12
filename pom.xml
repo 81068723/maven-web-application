@@ -155,10 +155,10 @@
                                    <id>deploy-node-modules-artifact</id>
                                     <phase>deploy</phase>
                                 <goals>
-                            <goal>deploy-file</goal>
+                            <goal>deploy</goal>
                             </goals>
                             <configuration>
-                                 <file>${file}</file>
+                                 
                             <groupId>${groupId}</groupId>
                             <artifactId>${artifactId}</artifactId>
                             <version>${version}</version>
