@@ -159,10 +159,10 @@
                             </goals>
                             <configuration>
                                  
-                            <groupId>${groupId}</groupId>
-                            <artifactId>${artifactId}</artifactId>
-                            <version>${version}</version>
-                            <packaging>${packaging}</packaging>
+                            <project.groupId>${groupId}</project.groupId>
+                            <project.artifactId>${artifactId}</project.artifactId>
+                            <project.version>${version}</project.version>
+                            <project.packaging>${packaging}</project.packaging>
                             <generatePom>true</generatePom>
                             <repositoryId>${targetRepositoryID}</repositoryId>
                             <url>${baseNexusURL}/content/repositories/${targetRepositoryID}</url>
