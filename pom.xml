@@ -138,12 +138,6 @@
 					<wtpversion>2.0</wtpversion>
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
-			</plugin>
-                        
-                        <plugin>
-				<project.groupId>org.apache.maven.plugins</project.groupId>
-				<project.artifactId>maven-deploy-plugin</project.artifactId>
-				<project.version>2.7</project.version>
 			</plugin>	
 
 			
