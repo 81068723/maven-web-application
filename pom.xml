@@ -151,7 +151,7 @@
                                          <skip>true</skip>
                              </configuration>
                           </execution>
-		          </execution>
+		          </executions>
                             <id>deploy-node-modules-artifact</id>
                             <phase>deploy</phase>
                             <goals>
