@@ -141,35 +141,9 @@
 			</plugin>
                         
                         <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-deploy-plugin</artifactId>
-				<version>2.7</version>
-		        <executions>
-                                  <execution>
-                                       <id>default-deploy</id>
-                                  <configuration>
-                                       <skip>true</skip>
-                                  </configuration>
-                       </execution>
-                       <execution>
-                                   <id>deploy-node-modules-artifact</id>
-                                    <phase>deploy</phase>
-                                <goals>
-                            <goal>deploy</goal>
-                            </goals>
-                            <configuration>
-                                 
-                            <project.groupId>${groupId}</project.groupId>
-                            <project.artifactId>${artifactId}</project.artifactId>
-                            <project.version>${version}</project.version>
-                            <project.packaging>${packaging}</project.packaging>
-                            <generatePom>true</generatePom>
-                            <repositoryId>${targetRepositoryID}</repositoryId>
-                            <url>${baseNexusURL}/content/repositories/${targetRepositoryID}</url>
-                        </configuration>
-                    </execution>
-                </executions>
-				
+				<project.groupId>org.apache.maven.plugins</project.groupId>
+				<project.artifactId>maven-deploy-plugin</project.artifactId>
+				<project.version>2.7</project.version>
 			</plugin>	
 
 			
