@@ -90,13 +90,13 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Releases Nexus Repository</name>
+	      <name>nexus</name>
 	      <url>http://172.31.2.140:8081/repository/walmart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Snapshot Nexus Repository </name>
+	      <name>nexus</name>
 	      <url>http://172.31.2.140:8081/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
